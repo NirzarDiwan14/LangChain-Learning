@@ -1,0 +1,5 @@
+student_id,student_name,question,answer,total_marks
+1,John Doe,"What is 2 + 2?","4",5
+2,Jane Smith,"What is the capital of France?","Paris",5
+3,Alex Lee,"Solve 3x + 5 = 14","x = 3",10
+4,Maria Garcia,"Write the formula for force","F = m * a",10

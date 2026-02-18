@@ -1,0 +1,74 @@
+=== EVALUATION TASK START ===
+
+QUESTION:
+A particle is thrown vertically upward with an initial velocity of 20 m/s.
+Calculate the maximum height reached. (Use g = 9.8 m/s²)
+
+TOTAL MARKS: 8
+
+-----------------------------------
+OFFICIAL SOLUTION (STEP-WISE MARKING SCHEME)
+-----------------------------------
+
+Step 1 (2 marks):
+Write the formula:
+v^2 = u^2 - 2gh
+
+Step 2 (2 marks):
+At maximum height, v = 0
+
+Step 3 (2 marks):
+Substitute values:
+0 = (20)^2 - 2(9.8)h
+
+Step 4 (1 mark):
+400 = 19.6h
+
+Step 5 (1 mark):
+h = 400 / 19.6
+h = 20.41 m
+
+-----------------------------------
+STUDENT ANSWER (OCR TEXT - DO NOT MODIFY)
+-----------------------------------
+
+formula is v square = u square minus 2 g h
+
+at max height velocity is zero
+
+0 = 20 square - 2 x 9.8 x h
+
+400 = 19.6 h
+
+h = 400 / 19.6
+
+h = 21 m
+
+-----------------------------------
+INSTRUCTIONS FOR EVALUATOR MODEL
+-----------------------------------
+
+1. Do NOT correct or rewrite the student's answer.
+2. Evaluate only what is written.
+3. Award partial marks if logically justified.
+4. Follow the official marking scheme strictly.
+5. Output result in JSON format only.
+6. Do not assume missing steps.
+7. Do not improve student wording.
+
+Required JSON Output Format:
+
+{
+  "step_evaluation": [
+    {
+      "step_number": 1,
+      "marks_available": X,
+      "marks_awarded": Y,
+      "reason": "short explanation"
+    }
+  ],
+  "total_awarded": X,
+  "total_available": 8
+}
+
+=== EVALUATION TASK END ===
