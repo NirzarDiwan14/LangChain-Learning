@@ -16,5 +16,6 @@ dependencies = [
     "langchain-groq>=1.1.2",
     "langchain-huggingface>=1.2.0",
     "pypdf>=6.7.1",
+    "streamlit>=1.54.0",
     "wikipedia>=1.4.0",
 ]

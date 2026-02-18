@@ -10,3 +10,4 @@ llm = ChatGroq(
 
 response = llm.invoke("What is the capital of sri lanka?")
 print(response.content)
+
