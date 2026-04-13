@@ -1635,6 +1635,7 @@ dependencies = [
     { name = "matplotlib" },
     { name = "pdf2image" },
     { name = "pypdf" },
+    { name = "sqlalchemy" },
     { name = "streamlit" },
     { name = "wikipedia" },
 ]
@@ -1658,6 +1659,7 @@ requires-dist = [
     { name = "matplotlib", specifier = ">=3.10.8" },
     { name = "pdf2image", specifier = ">=1.17.0" },
     { name = "pypdf", specifier = ">=6.7.1" },
+    { name = "sqlalchemy", specifier = ">=2.0.46" },
     { name = "streamlit", specifier = ">=1.54.0" },
     { name = "wikipedia", specifier = ">=1.4.0" },
 ]
